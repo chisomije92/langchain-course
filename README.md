@@ -1,135 +1,186 @@
-# LangChain- Develop AI Agents with LangChain & LangGraph 🦜🔗
+# 🦜 LangChain Documentation Helper
 
-**Learn LangChain and LangGraph by building real world AI Agents (Python, Latest Version V.1.0+)**
+<div align="center">
 
-This course is designed to teach you how to QUICKLY harness the power of the LangChain library for LLM applications. Build 3 end-to-end working LangChain based generative AI applications with no fluff, no toy examples - just real projects using real APIs and real-world skills.
+**An intelligent documentation assistant powered by LangChain and vector search**
 
-![LangChain Logo](/static/LangChain_OSS%20Lockup_light.png)
-![LangGraph Logo](/static/LangGraph_OSS%20Lockup_light.png)
+<p align="center">
+  <img src="static/Trimmed Padded Langchain.png" alt="LangChain Logo" width="180" style="margin: 0 10px;">
+  <img src="static/Tavily Logo Trimmed Padded.png" alt="Tavily Logo" width="180" style="margin: 0 10px;">
+</p>
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/EdenMarco177?style=social)](https://twitter.com/EdenMarco177)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+<br>
 
-[![udemy](https://img.shields.io/badge/LangChain%20Udemy%20Course%20Coupon%20%2412.99-brightgreen)](https://www.udemy.com/course/langchain/?couponCode=JULY-2026)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![LangChain](https://img.shields.io/badge/LangChain-🦜🔗-green.svg)](https://langchain.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B.svg)](https://streamlit.io/)
+[![Pinecone](https://img.shields.io/badge/Pinecone-🌲-orange.svg)](https://pinecone.io/)
+[![Tavily](https://img.shields.io/badge/Tavily-🔍-purple.svg)](https://app.tavily.com/home?utm_campaign=eden_marco&utm_medium=socials&utm_source=linkedin)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+[![udemy](https://img.shields.io/badge/LangChain%20Udemy%20Course-%2412.99-green)](https://www.udemy.com/course/langchain/?couponCode=APRIL-2026)
 
+</div>
 
-## 💡 What You'll Build 
+## 🎯 Overview
 
-This course takes you through building 7 real-world AI agent projects, from simple hello-world applications to advanced agentic systems:
+The **LangChain Documentation Helper** is a sophisticated AI-powered web application that serves as a slim version of [chat.langchain.com](https://chat.langchain.com/). This intelligent documentation assistant provides accurate answers to questions about LangChain documentation using advanced Retrieval-Augmented Generation (RAG) techniques, enhanced with web crawling capabilities and conversational memory.
 
-| Project | Type | Description |
-|---------|------|-------------|
-| 👋 [LangChain Hello World](https://github.com/emarco177/langchain-course/tree/project/hello-world) | Branch (`project/hello-world`) | Your first AI agent - basic structure and LLM integration |
-| 🔎  [Modern Search Agent](https://github.com/emarco177/ice_breaker/tree/project/search-agent) | Branch (`project/search-agent`) | Build search agents using LangChain v.1's `create_agent` interface with custom tools, Tavily integration, and structured outputs |
-| 🧠 [Agents Under The Hood](https://github.com/emarco177/langchain-course/tree/project/agents-under-the-hood) | Branch (`project/agents-under-the-hood`) | Understanding reasoning and acting patterns in AI agents |
-| 📄 [RAG Gist](https://github.com/emarco177/langchain-course/tree/project/rag-gist) | Branch (`project/rag-gist`) | The gist of retrieval-augmented generation |
-| ⚡ [System One Models](https://github.com/emarco177/langchain-course/tree/project/system-one-models) | Branch (`project/system-one-models`) | Fast, calibrated harness decisions with Jev: model routing and auto-mode tool gating middleware |
-| 📚 [Documentation Helper](https://github.com/emarco177/documentation-helper) | External Repo | Intelligent documentation assistant |
-| 💻 [Code Interpreter](https://github.com/emarco177/langchain-course/tree/project/code-interpreter) | Branch (`project/code-interpreter`) | AI-powered code execution and analysis |
-| 🪞 [Reflection Agent](https://github.com/emarco177/langgraph-course/tree/project/reflection-agent) | External Repo | Self-improving agent with reflection and critique capabilities |
-| 🔄 [Reflexion Agent](https://github.com/emarco177/langgraph-course/tree/project/reflexion-agent) | External Repo | Advanced self-correcting agent using reflexion techniques |
-| 🤖 [Agentic RAG](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag) | External Repo | Advanced retrieval-augmented generation system |
+### ✨ Key Features
 
-## 📚 Course Highlights 
+**RAG Pipeline Flow:**
 
-- **7 Complete Projects** - From beginner to advanced implementations including Ice Breaker, Documentation Helper, and Code Interpreter
-- **Real-World Applications** - Build agents that solve actual problems with live APIs
-- **Modern Tech Stack** - LangChain v0.3+, LangGraph, Pinecone, FAISS, Streamlit
-- **Practical Skills** - Learn RAG, vector databases, prompt engineering, and agent workflows
-- **Interactive Learning** - Follow commits chronologically for step-by-step learning
+1. 🌐 **Web Crawling**: Real-time web scraping and content extraction using Tavily's advanced crawling capabilities
+2. 📚 **Document Processing**: Intelligent chunking and preprocessing of LangChain documentation
+3. 🔍 **Vector Storage**: Advanced embedding and indexing using Pinecone for fast similarity search
+4. 🎯 **Intelligent Retrieval**: Context-aware document retrieval based on user queries
+5. 🧩 **Memory System**: Conversational memory for coreference resolution and context continuity
+6. 🧠 **Context-Aware Generation**: Provides accurate, contextual answers with source citations
+7. 💬 **Interactive Interface**: User-friendly chat interface powered by Streamlit
+8. 🚀 **Real-time Processing**: Fast end-to-end pipeline from query to response
 
-## 🤔 Learning Path 
+## 🎬 Demo
 
-### Phase 1: Foundations
-1. **Hello World Chain** - Basic agent structure and LLM integration
-2. **Code Interpreter** - Tool calling and code execution capabilities
+<div align="center">
+  <img src="static/banner.gif" alt="Documentation Helper Demo" width="700">
+  <p><em>Interactive demo showing the LangChain Documentation Helper in action</em></p>
+</div>
 
-### Phase 2: Real-World Applications
-3. **Ice Breaker** - Data collection and social media integration
-4. **Documentation Helper** - RAG implementation and knowledge management
+## 🛠️ Tech Stack
 
-### Phase 3: Advanced Concepts
-5. **Blog Analyzer** - Multi-step reasoning and content analysis
-6. **Agentic RAG** - Self-correcting agents with memory and planning
+<div align="center">
 
-## ▶️ Getting Started 
+| Component              | Technology            | Description                                     |
+| ---------------------- | --------------------- | ----------------------------------------------- |
+| 🖥️ **Frontend**        | Streamlit             | Interactive web interface                       |
+| 🧠 **AI Framework**    | LangChain 🦜🔗        | Orchestrates the AI pipeline                    |
+| 🔍 **Vector Database** | Pinecone 🌲           | Stores and retrieves document embeddings        |
+| 🌐 **Web Crawling**    | Tavily                | Intelligent web scraping and content extraction |
+| 🧩 **Memory**          | Conversational Memory | Coreference resolution and context continuity   |
+| 🤖 **LLM**             | OpenAI GPT            | Powers the conversational AI                    |
+| 🐍 **Backend**         | Python                | Core application logic                          |
 
-### 🛠️ Prerequisites 
-- **This is not a beginner course** - Basic software engineering concepts needed
-- Familiarity with: git, Python, environment variables, classes, testing and debugging
-- Python 3.10+
-- Any Python package manager (uv, poetry, pipenv) - but NOT conda!
-- Access to an LLM (can be open source via Ollama, or cloud providers like OpenAI, Anthropic, Gemini)
-- No Machine Learning experience needed
+</div>
 
-### ⚙️ Setup Instructions 
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Python 3.8 or higher
+- OpenAI API key
+- Pinecone API key
+- [Tavily API key](https://app.tavily.com/home?utm_campaign=eden_marco&utm_medium=socials&utm_source=linkedin) (required - for documentation crawling and web search)
+
+### Installation
 
 1. **Clone the repository**
+
    ```bash
-   git clone https://github.com/emarco177/langchain-course
-   cd langchain-course
-   ```
-2. **Choose your learning path**
-   
-   **For branch-based projects:**
-   ```bash
-   # Start with Hello World
-   git checkout project/hello-world
-   uv sync
-   uv run python main.py
-   
-   # Progress to Code Interpreter
-   git checkout project/code-interpreter
-   uv sync
-   uv run python main.py
-   ```
-   
-   **For external repository projects:**
-   ```bash
-   # Clone specific project repositories
-   git clone https://github.com/emarco177/ice_breaker
-   cd ice_breaker
-   # Follow project-specific setup instructions
+   git clone https://github.com/emarco177/documentation-helper.git
+   cd documentation-helper
    ```
 
-3. **Follow the commits**
-   - Each commit represents a lesson or feature implementation
-   - Use `git log --oneline` to see the learning progression
-   - Checkout previous commits to understand the development process
+2. **Set up environment variables**
 
-**External Projects:**
-- [Ice Breaker](https://github.com/emarco177/ice_breaker) - Social media profile analyzer
-- [Medium Analyzer](https://github.com/emarco177/blog-analyzer) - Content analysis and insights generator
-- [Documentation Helper](https://github.com/emarco177/documentation-helper) - AI documentation assistant
-- [Reflection Agent](https://github.com/emarco177/langgraph-course/tree/project/reflection-agent) - Self-improving agent with reflection and critique capabilities
-- [Reflexion Agent](https://github.com/emarco177/langgraph-course/tree/project/reflexion-agent) - Advanced self-correcting agent using reflexion techniques
-- [Agentic RAG](https://github.com/emarco177/langgraph-course/tree/project/agentic-rag) - Advanced retrieval-augmented generation system
+   Create a `.env` file in the root directory:
 
+   ```env
+   PINECONE_API_KEY=your_pinecone_api_key_here
+   OPENAI_API_KEY=your_openai_api_key_here
+   TAVILY_API_KEY=your_tavily_api_key_here  # Required - for documentation crawling
+   ```
 
-## 📚 Learning Objectives 
+3. **Install dependencies**
 
-By the end of this course, you'll be able to:
+   ```bash
+   pipenv install
+   ```
 
-- Build AI agents from scratch using modern frameworks
-- Implement tool calling and external API integrations
-- Create RAG systems with vector databases
-- Design multi-step reasoning workflows
-- Deploy agents to production environments
-- Handle error correction and self-improvement in agents
-- Optimize agent performance and cost efficiency
+4. **Ingest LangChain Documentation** (Run the ingestion pipeline)
 
+   ```bash
+   python ingestion.py  # Uses Tavily to crawl and index documentation
+   ```
 
+5. **Run the application**
 
+   ```bash
+   streamlit run main.py
+   ```
 
+6. **Open your browser** and navigate to `http://localhost:8501`
 
-## 🙏 Acknowledgements 
+## 🧪 Testing
 
-Big thanks to the **LangChain / LangGraph** team and their excellent [documentation and tutorials](https://langchain-ai.github.io/langgraph/tutorials/introduction/) that make this course possible.
+Run the test suite to ensure everything is working correctly:
+
+```bash
+pipenv run pytest .
+```
+
+## 📁 Project Structure
+
+```
+documentation-helper/
+├── backend/                          # Core backend logic
+│   ├── __init__.py
+│   └── core.py
+├── static/                           # Static assets (images, logos)
+│   ├── banner.gif
+│   ├── LangChain Logo.png
+│   ├── Tavily Logo.png
+│   ├── Tavily Logo Trimmed Padded.png
+│   └── Trimmed Padded Langchain.png
+├── chroma_db/                        # Local vector database
+├── main.py                           # Streamlit application entry point
+├── ingestion.py                      # Document ingestion pipeline
+├── consts.py                         # Configuration constants
+├── logger.py                         # Logging utilities
+├── Tavily Demo Tutorial.ipynb        # 📚 Tutorial: Introduction to Tavily API
+├── Tavily Crawl Demo Tutorial.ipynb  # 📚 Tutorial: Advanced Tavily crawling techniques
+└── requirements files                # Pipfile, Pipfile.lock
+```
+
+### 📚 Tutorial Notebooks
+
+The project includes comprehensive Jupyter notebooks that serve as hands-on tutorials:
+
+- **`Tavily Demo Tutorial.ipynb`**: Introduction to Tavily API basics and core functionality
+- **`Tavily Crawl Demo Tutorial.ipynb`**: Advanced tutorial covering Tavily's crawling capabilities, including TavilyMap and TavilyExtract features
+
+These tutorials provide step-by-step guidance on integrating Tavily's powerful web search and crawling capabilities into your AI applications.
+
+## 🔧 Configuration
+
+### Environment Variables
+
+| Variable           | Description                                                   | Required |
+| ------------------ | ------------------------------------------------------------- | -------- |
+| `PINECONE_API_KEY` | Your Pinecone API key for vector storage                      | ✅       |
+| `OPENAI_API_KEY`   | Your OpenAI API key for LLM access                            | ✅       |
+| `TAVILY_API_KEY`   | Your Tavily API key for documentation crawling and web search | ✅       |
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+## 📚 Learning Resources
+
+This project is designed as a learning tool for understanding:
+
+- 🦜 LangChain framework implementation
+- 🔍 Vector search and embeddings
+- 💬 Conversational AI development
+- 🏗️ RAG (Retrieval-Augmented Generation) architecture
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🌟 Support
 
 If you find this project helpful, please consider:
+
 - ⭐ Starring the repository
 - 🐛 Reporting issues
 - 💡 Contributing improvements
@@ -148,4 +199,3 @@ If you find this project helpful, please consider:
 **Built with ❤️ by Eden Marco**
 
 </div>
-
