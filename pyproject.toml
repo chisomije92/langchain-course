@@ -7,7 +7,15 @@ authors = [
     { name = "chisomije", email = "chisomije92@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "black>=26.10.1",
+    "grandalf>=0.8",
+    "isort>=9.0.2",
+    "langchain>=1.4.8",
+    "langchain-openai>=1.7.3",
+    "langgraph>=1.2.19",
+    "python-dotenv>=1.2.4",
+]
 
 [project.scripts]
 langchain-course = "langchain_course:main"
