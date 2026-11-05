@@ -222,3 +222,4 @@ __marimo__/
 
 #chroma
 chroma_db/
+**/*chroma*
